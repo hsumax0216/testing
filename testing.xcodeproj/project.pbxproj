@@ -14,9 +14,9 @@
 		9C11063422201C54001060A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C11063222201C54001060A6 /* LaunchScreen.storyboard */; };
 		9C11063F22201C54001060A6 /* testingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11063E22201C54001060A6 /* testingTests.swift */; };
 		9C11064A22201C54001060A6 /* testingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C11064922201C54001060A6 /* testingUITests.swift */; };
-		9C89EB9322226F3B008FAC3D /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C89EB9222226F3B008FAC3D /* maxresdefault.jpg */; };
+		9C48A1502224481F0024E90E /* sound01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C48A14F2224481F0024E90E /* sound01.mp3 */; };
+		9C48A15322244BF70024E90E /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C48A15222244BF70024E90E /* maxresdefault.jpg */; };
 		9C89EB9622227634008FAC3D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C89EB9522227634008FAC3D /* AVFoundation.framework */; };
-		9C89EB98222277AF008FAC3D /* sound01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C89EB97222277AF008FAC3D /* sound01.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,9 +50,9 @@
 		9C11064522201C54001060A6 /* testingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C11064922201C54001060A6 /* testingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingUITests.swift; sourceTree = "<group>"; };
 		9C11064B22201C54001060A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C89EB9222226F3B008FAC3D /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maxresdefault.jpg; path = ../../../Downloads/maxresdefault.jpg; sourceTree = "<group>"; };
+		9C48A14F2224481F0024E90E /* sound01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound01.mp3; sourceTree = "<group>"; };
+		9C48A15222244BF70024E90E /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
 		9C89EB9522227634008FAC3D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		9C89EB97222277AF008FAC3D /* sound01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound01.mp3; path = ../../../Downloads/sound01.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 		9C11062822201C52001060A6 /* testing */ = {
 			isa = PBXGroup;
 			children = (
-				9C89EB97222277AF008FAC3D /* sound01.mp3 */,
-				9C89EB9222226F3B008FAC3D /* maxresdefault.jpg */,
+				9C48A15222244BF70024E90E /* maxresdefault.jpg */,
+				9C48A14F2224481F0024E90E /* sound01.mp3 */,
 				9C11062922201C52001060A6 /* AppDelegate.swift */,
 				9C11062B22201C52001060A6 /* ViewController.swift */,
 				9C11062D22201C52001060A6 /* Main.storyboard */,
@@ -248,10 +248,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C11063422201C54001060A6 /* LaunchScreen.storyboard in Resources */,
-				9C89EB9322226F3B008FAC3D /* maxresdefault.jpg in Resources */,
 				9C11063122201C54001060A6 /* Assets.xcassets in Resources */,
+				9C48A15322244BF70024E90E /* maxresdefault.jpg in Resources */,
 				9C11062F22201C52001060A6 /* Main.storyboard in Resources */,
-				9C89EB98222277AF008FAC3D /* sound01.mp3 in Resources */,
+				9C48A1502224481F0024E90E /* sound01.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

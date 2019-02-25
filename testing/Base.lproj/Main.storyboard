@@ -57,9 +57,6 @@
                         <color key="backgroundColor" red="0.0" green="1" blue="0.68133789450114701" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <connections>
-                        <outlet property="imageOut" destination="d19-ZA-uea" id="h6O-na-xTq"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

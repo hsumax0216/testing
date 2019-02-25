@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:testing.xcodeproj">
+      location = "group:/Users/t450smac/Desktop/testing/testing/maxresdefault.jpg">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
